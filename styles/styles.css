@@ -50,3 +50,8 @@ body {
     background-color: var(--bs-primary);
     color: blue;
 }
+
+.dropdownList {
+    background-color: var(--bs-primary);
+    color: blue;
+}
