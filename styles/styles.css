@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Luminari', fantasy;
+    font-family: 'Times New Roman', serif;
 }
 
 .section {
@@ -12,7 +12,7 @@ body {
 }
 
 .next a {
-    color: rgb(33, 37, 41);
+    color: rgb(127, 0, 255);
 }
 
 .arrow-next {
@@ -41,12 +41,12 @@ body {
 
 .class-card {
     background-color: #eeeeee;
-    color: black;
+    color: purple;
     transition-property: all;
     transition-duration: 0.3s;
 }
 
 .class-card:hover {
     background-color: var(--bs-primary);
-    color: white;
+    color: blue;
 }
