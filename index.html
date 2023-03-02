@@ -25,6 +25,19 @@
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.3/dist/iconify-icon.min.js"></script>
 
     <!-- Remove this and fill in your name & photo in the required areas -->
+      <script>
+      fetch('https://randomuser.me/api/?inc=Ruben,picture')
+        .then((response) => response.json())
+        .then(({ results }) => results[0])
+        .then(({ name, picture }) => {
+          document.querySelector('#name').innerText = name.first
+          document.querySelector(
+            '.navbar-brand'
+          ).innerText = `${name.first} ${name.last}`
+          document.title = `${name.first} ${name.last} Personal Site`
+          document.querySelector('#profilepic').src = picture.large
+        })
+    </script>
   
 
     <link href="styles/theme.css" rel="stylesheet" />
@@ -63,6 +76,11 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#courses"
                 >Courses</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#courses"
+                >New Page</a
               >
             </li>
             <li class="nav-item">
