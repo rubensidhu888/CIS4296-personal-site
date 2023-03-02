@@ -1,14 +1,14 @@
 :root {
-    --temple-red-dark: rgb(136, 24, 45);
-    --bs-primary: #88182d;
-    --bs-primary-rgb: 158, 27, 52;
-    --bs-primary-dark: #721426;
-    --bs-primary-dark-rgb: 136, 24, 35;
+    --temple-red-dark: rgb(126, 88, 126);
+    --bs-primary: #5E5A80;
+    --bs-primary-rgb: 233, 207, 236;
+    --bs-primary-dark: #614051;
+    --bs-primary-dark-rgb: 78, 56, 126;
 
 }
 
 .btn-primary {
-    --bs-btn-color: #fff;
+    --bs-btn-color: #6A287E;
     --bs-btn-bg: #88182d;
     --bs-btn-border-color: #88182d;
     --bs-btn-hover-color: #fff;
